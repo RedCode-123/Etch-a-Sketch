@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+body {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+
+}
+
+.board {
+    display: flex;
+    flex-flow:row wrap;
+    margin:0;
+    padding: 0;
+    width: 256px;
+    height: 256px;
+    margin:0;
+    /* outline:1px solid blue; */
+
+}
+
